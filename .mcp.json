@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-linkedin-jobs-feed": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-linkedin-jobs-feed"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
