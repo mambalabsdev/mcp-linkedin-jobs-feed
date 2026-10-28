@@ -20,7 +20,7 @@ An MCP server for the Mamba Labs LinkedIn Jobs Feed actor on Apify. Give it job 
 ## What it does
 
 - **Source**: LinkedIn's public guest job search and job posting pages only. No login, no cookie, no profile or company page reads.
-- **Employer domain**: one web search per employer, cached; returned only when the domain clearly matches the company name (`domain_status` `resolved`), otherwise empty and labeled.
+- **Employer domain**: a company name autocomplete, then a web search, once per employer and cached; returned only when the domain clearly matches the company name (`domain_status` `resolved`), otherwise empty and labeled.
 - **Rows**: one `job` row per job with the posting details, and one free `search` row per search and location with `jobs_found` and `jobs_returned`.
 - **Filters and schedules**: posted within, workplace type, experience level, job type, excluded companies, and `only_new` with a `state_key`.
 
