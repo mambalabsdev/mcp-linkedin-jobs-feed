@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-linkedin-jobs-feed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for LinkedIn Jobs Feed. Search LinkedIn jobs by keyword and location and get one row per job with the employer website domain, description, seniority, and applicants. No login. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
